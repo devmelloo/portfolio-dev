@@ -11,6 +11,13 @@
   --color-green: #82BC4F;
   --color-yellow: #EABD5F;
 
+  --gray-100: #E2E4E9;
+  --gray-200: #C0C4CE;
+  --gray-300: #878EA1;
+  --gray-400: #292C34;
+  --gray-500: #16181D;
+  --gray-600: #0D0E11;
+
   --font-family-asap: 'Asap', sans-serif;
   --title-lg: 700 56px/120% var(--font-family-asap);
   --title-md: 700 24px/120% var(--font-family-asap);
