@@ -31,10 +31,11 @@
   --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
 
-.bg {
+.background {
   background-image: url(../assets/background/background-intro.png);
   background-size: cover;
-  background-position: center;
-  height: 300px;
-  width: 300px;
+  background-repeat: no-repeat;
+}
+.center {
+  justify-self: center;
 }
