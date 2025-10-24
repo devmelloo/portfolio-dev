@@ -30,12 +30,3 @@
   --text-md: 400 16px/140% var(--font-family-maven-pro);
   --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
-
-.background {
-  background-image: url(../assets/background/background-intro.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.center {
-  justify-self: center;
-}

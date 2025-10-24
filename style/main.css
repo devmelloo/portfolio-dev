@@ -1,0 +1,54 @@
+#bg-main {
+  background-color: var(--gray-500);
+}
+
+ main section:nth-child(1) {
+  text-align: center;
+  padding-block: 72px 56px;
+
+  h2 {
+    font: var(--subtitle);
+    color: var(--color-red);
+    padding-bottom: 8px;
+  }
+  
+  h1 {
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
+ }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding-inline: 164px;
+  overflow: hidden;
+}
+
+.card {
+  background-color: var(--gray-400);
+  padding-block: 12px 17px;
+  padding-inline: 12px;
+  border-radius: 12px;
+
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  h3 {
+    font: var(--title-sm);
+    color: var(--gray-100);
+    padding-block: 20px 8px;
+  }
+
+  span {
+    font: var(--text-sm);
+    color: var(--gray-200);
+  }
+
+
+}
