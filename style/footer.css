@@ -1,0 +1,30 @@
+footer {
+  background-image: url(../assets/background/Background_Contacts.png);
+  padding: 128px 120px 200px;
+}
+
+footer div:nth-child(1) {
+  text-align: center;
+  padding-bottom: 48px;
+
+  h2 {
+    font: var(--subtitle);
+    color: var(--color-purple);
+    padding-bottom: 8px;
+  }
+  
+  h1 {
+    font: var(--title-md);
+    color: var(--gray-100);
+    padding-bottom: 8px;
+  }
+
+  span {
+    font: var(--text-md);
+    color: var(--gray-200);
+  }
+}
+
+ul {
+  text-align: center;
+}
