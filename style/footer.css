@@ -1,5 +1,7 @@
 footer {
-  background-image: url(../assets/background/Background_Contacts.png);
+  background-image: url(../assets/background/background-contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 128px 120px 200px;
 }
 
@@ -25,6 +27,40 @@ footer div:nth-child(1) {
   }
 }
 
-ul {
+.social-list {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  list-style: none;
+}
+
+.list {
+  li {
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    margin-bottom: 16px;
+    width: 400px;
+    height: 68px;
+
+    span {
+      font: var(--text-md);
+      color: var(--gray-200);
+      display: flex;
+      flex: 1;
+      padding-inline: 12px;
+    }
+  }
+}
+
+.list:hover {
+  li:nth-child(1) {
+   border: 1px solid var(--color-blue);
+  }
+
 }

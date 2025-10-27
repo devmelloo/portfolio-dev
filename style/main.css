@@ -25,7 +25,6 @@ main section:nth-child(1)  {
   padding-inline: 164px;
   padding-bottom: 144px;
   overflow: hidden;
-
 }
 
 .card {
@@ -33,7 +32,6 @@ main section:nth-child(1)  {
   padding-block: 12px 17px;
   padding-inline: 12px;
   border-radius: 12px;
-
 
   img {
     display: block;
@@ -51,6 +49,8 @@ main section:nth-child(1)  {
     font: var(--text-sm);
     color: var(--gray-200);
   }
+}
 
-
+.card:hover {
+  border: 2px solid var(--gray-300);
 }
